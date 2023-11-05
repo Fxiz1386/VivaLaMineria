@@ -1,18 +1,15 @@
 #!/bin/bash
 # Inicio
-sudo apt update
-
-# Instalar
-sudo apt install npm && sudo apt install wget
-# Servicio pm2
-sudo npm i -g pm2
+sudo apt-get -y update
+sudo apt-get -y upgrade
+# Descargar
+sudo apt-get -y install npm wget cat
 
 # Descargar SRBMiner-Multi
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.3.9/SRBMiner-Multi-2-3-9-Linux.tar.xz
-
-# Descomprimir el archivo descargado
-tar -xvf SRBMiner-Multi-2-3-9-Linux.tar.xz
-
+mv SRBMiner-Multi-2-3-9-Linux.tar.xz SRB.tar.xz
+cd ./SRB
+tar -xvf SRB.tar.xz
 # Crear el archivo ./start con el comando "apt update"
 echo "apt update" > ./start
 
