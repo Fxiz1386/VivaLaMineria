@@ -1,4 +1,11 @@
 #!/bin/bash
+# Inicio
+sudo apt update
+
+# Instalar
+sudo apt install npm && sudo apt install wget
+# Servicio pm2
+sudo npm i -g pm2
 
 # Descargar SRBMiner-Multi
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.3.9/SRBMiner-Multi-2-3-9-Linux.tar.xz
