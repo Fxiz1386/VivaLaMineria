@@ -22,8 +22,10 @@ sudo tar -xvf ./SRBMiner-Multi-2-3-9-Linux.tar.xz
 mv SRBMiner-Multi-2-3-9/ SRB/
 mv ./start.sh SRB/
 rm ./SRBMiner-Multi-2-3-9-Linux.tar.xz
+rm -f ./instalar.sh
 cd SRB/
 clear
-echo "⚠️ Se ha creado el directorio /SRB/"
+echo "⚠️ Se ha creado el directorio > /SRB/"
 echo "(4/4) 🪨 ¡Configurado y instalado satisfactoriamente! ⛏️"
 echo "pm2 start ./start.sh para empezar a minar."
+read -n 1 -s -r -p ""
