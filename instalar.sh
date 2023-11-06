@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
 echo "
-╔═══.·:·.☽✧ ✦ ✧☾.·:·.═══╗
-   /─SRBMiner-Linux─────\
-  |─Instalador v{1.0}──────\
-   \─© Fxiz1386 - 2023──────\
-╚═══.·:·.☽✧ ✦ ✧☾.·:·.═══╝
+╔═══.·:·.☽✧ ⛏️ ✧☾.·:·.═══╗
+   /───SRBMiner-Linux────·
+  |─Instalador v{1.0}────·
+   \──© Fxiz1386 - 2023────·
+╚═══.·:·.☽✧ ⛏️ ✧☾.·:·.═══╝
 "
 echo "   ✓ Presiona una tecla para continuar."
 read -n 1 -s -r -p ""
