@@ -4,14 +4,15 @@ echo "(1/4) 🪨⛏️ ¡Instalador srbMiner para Linux!"
 echo "   ✓ Presiona una tecla para continuar."
 read -n 1 -s -r -p ""
 clear
+wait 4
 echo "(2/4) ⛏️🪨 Instalando..."
 wait 4
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install npm wget cat
-clear
-echo "(3/4) ⛏️🪨 Descargando archivos..."
 wait 4
+echo "(3/4) ⛏️🪨 Descargando archivos..."
+sudo npm i -g pm2
 sudo wget https://raw.githubusercontent.com/Fxiz1386/FilesVivaLaMineria/main/start.sh
 sudo chmod +x ./start.sh
 wait 4
@@ -25,4 +26,4 @@ cd SRB/
 clear
 echo "⚠️ Se ha creado el directorio /SRB/"
 echo "(4/4) 🪨 ¡Configurado y instalado satisfactoriamente! ⛏️"
-echo "Ejecuta: ./start.sh para empezar a minar."
+echo "pm2 start ./start.sh para empezar a minar."
