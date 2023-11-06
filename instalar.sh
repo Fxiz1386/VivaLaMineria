@@ -14,7 +14,7 @@ echo "(3/4) ⛏️🪨 Descargando archivos..."
 wait 4
 sudo wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.3.9/SRBMiner-Multi-2-3-9-Linux.tar.xz
 sudo tar -xvf ./SRBMiner-Multi-2-3-9-Linux.tar.xz
-cd SRBMiner-Multi-2-3-9/
+mv SRBMiner-Multi-2-3-9/ SRB/
 echo "⚠️ Se ha creado el directorio ./SRB/"
 wait 4
 sudo wget https://raw.githubusercontent.com/Fxiz1386/FilesVivaLaMineria/main/start.sh
@@ -22,3 +22,4 @@ sudo chmod +x ./start.sh
 clear
 echo "(4/4) 🪨 ¡Configurado y instalado satisfactoriamente! ⛏️"
 echo "Ejecuta: ./start.sh para empezar a minar."
+cd /SRB
