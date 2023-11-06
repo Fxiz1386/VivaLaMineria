@@ -1,6 +1,12 @@
 #!/bin/bash
 clear
-echo "(1/4) 🪨⛏️ ¡Instalador srbMiner para Linux!"
+echo "
+╔═══.·:·.☽✧ ✦ ✧☾.·:·.═══╗
+   /─SRBMiner-Linux─────\
+  |─Instalador v{1.0}──────\
+   \─© Fxiz1386 - 2023──────\
+╚═══.·:·.☽✧ ✦ ✧☾.·:·.═══╝
+"
 echo "   ✓ Presiona una tecla para continuar."
 read -n 1 -s -r -p ""
 BLA_classic=( 0.25 '-' "\\" '|' '/' )
