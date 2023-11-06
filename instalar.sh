@@ -4,6 +4,7 @@ echo "(1/4) 🪨⛏️ ¡Instalador srbMiner para Linux!"
 echo "   ✓ Presiona una tecla para continuar."
 read -n 1 -s -r -p ""
 clear
+BLA_classic=( 0.25 '-' "\\" '|' '/' )
 wait 4
 echo "(2/4) ⛏️🪨 Instalando..."
 wait 4
