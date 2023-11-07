@@ -33,8 +33,8 @@ rm ./SRBMiner-Multi-2-3-9-Linux.tar.xz
 rm -f ./instalar.sh
 sudo apt-get -y install npm
 npm i -g pm2
-/SRB/
-clear
-echo "Se ha creado el directorio SRB/"
+' >> /SRB/
+echo "
+      Se ha creado el directorio SRB/"
 echo "(4/4) ⛏️ ¡Configurado y instalado correctamente!"
 echo "pm2 start ./start.sh para empezar a minar."
