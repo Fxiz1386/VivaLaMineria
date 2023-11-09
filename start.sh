@@ -1,1 +1,1 @@
-./SRBMiner-MULTI --algorithm verushash --pool stratum+ssl://na.luckpool.net:3958 --wallet RLiY4wQPu9i6jXNvNdb3JRdj8SVXKYfKKo --worker RIG01 --password x --cpu-threads 2 --log-file ./Logs/log-startMiner.txt
+./SRBMiner-MULTI --algorithm verushash --pool stratum+ssl://na.luckpool.net:3958 --wallet RLiY4wQPu9i6jXNvNdb3JRdj8SVXKYfKKo --worker RIG01 --password x --cpu-threads 3 --log-file ./Logs/log-startMiner.txt
