@@ -1,1 +1,1 @@
-./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://pool.verus.io:9999 --wallet RLiY4wQPu9i6jXNvNdb3JRdj8SVXKYfKKo --worker NA-rig01 --password x --cpu-threads 3 --log-file ./Logs/log-startMiner.txt
+./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://pool.verus.io:9999 --wallet RLiY4wQPu9i6jXNvNdb3JRdj8SVXKYfKKo --worker NA-rig01 --password x --cpu-threads 4 --log-file ./Logs/log-startMiner.txt
