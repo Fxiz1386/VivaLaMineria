@@ -1,0 +1,18 @@
+debug: false
+uuid: 65d6da9b-7167-4620-a0ea-5e806eb137aa
+token_id: VbQrqJmfmgpAERSA
+token: ii3y3E1iq9sTDlwusr9KxmPt8E53vnvxuoW8JDxtLZ381PdPbm1XU180r6hpoOdK
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/142.132.142.58/fullchain.pem
+    key: /etc/letsencrypt/live/142.132.142.58/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'http://royal-morning-13054381.eu-ws3.runcode.io'
