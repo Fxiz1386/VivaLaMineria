@@ -1,0 +1,108 @@
+{
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 3333,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3331,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3332,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3334,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3335,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3336,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3337,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3338,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3339,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3340,
+            "tls": false
+        }
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "pool.hashvault.pro:443",
+            "user": "43GwapHXZarawAUSupTEvLb4M9Ho1pmcGRrLTLmjWq7vitTiD7NztpXZqjqqGWPH3r4mLZ9nWBJ2FNjyc3AgcwFQ13MrZbf",
+            "pass": "x",
+            "rig-id": "FARM1",
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
