@@ -30,12 +30,12 @@ echo "      (3/4) ⛏️ Descargando archivos..."
 sudo wget https://raw.githubusercontent.com/Fxiz1386/VivaLaMineria/main/start.sh
 sudo chmod +x ./start.sh
 wait 7
-sudo wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.3.9/SRBMiner-Multi-2-3-9-Linux.tar.xz
+sudo wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.5.4/SRBMiner-Multi-2-5-4-Linux.tar.gz
 wait 7
-sudo tar -xvf ./SRBMiner-Multi-2-3-9-Linux.tar.xz
-mv SRBMiner-Multi-2-3-9/ SRB/
+sudo tar -xvf ./SRBMiner-Multi-2-5-4-Linux.tar.xz
+mv SRBMiner-Multi-2-5-4/ SRB/
 mv ./start.sh SRB/
-rm ./SRBMiner-Multi-2-3-9-Linux.tar.xz
+rm ./SRBMiner-Multi-2-5-4-Linux.tar.xz
 rm -f ./instalar.sh
 sudo apt-get -y install npm
 npm i -g pm2
